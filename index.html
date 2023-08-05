@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Post_Application</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="get-data">
+      <div class="split left">
+        <div>
+          <h1 id="postHeadding">Post Office Application.</h1>
+          <p>
+            This Application Allows you to extract information about the nearest
+            Post Offices, based on your location.
+          </p>
+        </div>
+        <div class="centered">
+          <img src="frontIdxPage.png" alt="frontIdxPage" />
+        </div>
+      </div>
+
+      <div class="split right">
+        <div class="centered" id="right">
+          <h1 id="IpHeading">Your Current IP Address is 127.0.01</h1>
+          <button onclick="getUserInfo()" id="btn">Get Started</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="ipDetails"></div>
+    <div id="map"></div>
+    <div id="timezone"></div>
+    <div id="searchBoxed"></div>
+    <div id="postOfficeList"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
